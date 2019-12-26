@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4F5ED84323A3334E008120AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5ED84223A3334E008120AA /* main.m */; };
+		4FBB05A423B345B100973BF7 /* delimslib.c in Sources */ = {isa = PBXBuildFile; fileRef = 4FBB05A323B345B100973BF7 /* delimslib.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		4F5ED83F23A3334E008120AA /* UDP_TCP_checksum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = UDP_TCP_checksum; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F5ED84223A3334E008120AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4FBB05A223B345B100973BF7 /* delimslib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = delimslib.h; sourceTree = "<group>"; };
+		4FBB05A323B345B100973BF7 /* delimslib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = delimslib.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				4F5ED84223A3334E008120AA /* main.m */,
+				4FBB05A223B345B100973BF7 /* delimslib.h */,
+				4FBB05A323B345B100973BF7 /* delimslib.c */,
 			);
 			path = UDP_TCP_checksum;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FBB05A423B345B100973BF7 /* delimslib.c in Sources */,
 				4F5ED84323A3334E008120AA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
